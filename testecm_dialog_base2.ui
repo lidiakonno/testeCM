@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>870</width>
+    <height>586</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Exportar Projeto</string>
+  </property>
+  <property name="windowOpacity">
+   <double>7.000000000000000</double>
+  </property>
+  <widget class="QTabWidget" name="area">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>811</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab2">
+    <attribute name="title">
+     <string>exportar</string>
+    </attribute>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>291</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Selecione o Projeto:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>440</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>440</y>
+       <width>461</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_selec_o">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>30</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Visualizar Tabela</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>70</y>
+       <width>711</width>
+       <height>351</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="Cbx_table">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>241</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_salvar">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>476</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>salvar</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
